@@ -5,4 +5,8 @@ class ArticleTest < ActiveSupport::TestCase
   test "the truth" do
     assert true
   end
+  
+  test "the failure" do
+    assert false
+  end
 end
